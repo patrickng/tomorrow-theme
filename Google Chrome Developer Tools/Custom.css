@@ -11,7 +11,7 @@
 /*
 /**********************************************/
 #-webkit-web-inspector ::selection {
-  background: #888;
+  background: #ccc;
   opacity: 1;
 }
 #-webkit-web-inspector #toolbar {
@@ -201,6 +201,10 @@
   }
   #-webkit-web-inspector .console-group-messages .section .header .title {
     color: #F1F1F1 !important;
+  }
+  #-webkit-web-inspector .console-debug-level .console-message-text {
+    color: #B5BC67 !important;
+
   }
   #-webkit-web-inspector .console-group-messages .section .header::before,
   #-webkit-web-inspector .properties-tree li.parent::before {
@@ -569,6 +573,7 @@
 }
 #-webkit-web-inspector .styles-element-state-pane {
   background: #373B41 !important;
+  color: #C2C2C3 !important;
 }
 #-webkit-web-inspector .placard:nth-of-type(2n) {
   background: #333 !important;
